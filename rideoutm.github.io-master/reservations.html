@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="derp derp derp">
+  <title>Restaurant Annabelle | Reservations</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/aboutStyles.css">
+
+</head>
+<body>
+  <header id="welcome">    
+    <nav>
+      <li><a href="index.html#welcome">Welcome</a></li>
+      <li><a href="index.html#favs">Menu</a></li>
+      <li><a href="index.html#Contact">Contact</a></li>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="background-image" style="background-image: url('assets/main.jpg'); "></div>
+    <div class="hero-content-area">
+
+      <h1>Restaurant Annabelle</h1>
+      <h3></h3>
+    </div>
+     
+  </section> 
+ 
+  <section class="reservation">
+    <div id="reservationTitle">
+      <p>Reservations</p>
+      <div id="reservSubText">
+        <p>For parties of 4 or more, we recommend making reservations minimum three weeks in advance. 
+          For walk-ins, we only seat parties on a first come, first served basis.</p>
+      </div>
+    </div>
+    <div id="reservationForm">
+      <form action="">
+        <div class="firstLastContainer">          
+            <div class="formInline first">
+              <legend>Name*</legend>
+              <label class="formLabels" for="firstName">
+                <input id="firstName" type="text" required>
+                <p>First Name</p>
+              </label>
+            </div>
+            <div class="formInline last">
+              <legend id="hidden">Last Name </legend>
+                <label class="formLabels" for="lastName">
+                  <input id="lastNAME" type="text" required>
+                  <p>Last Name</p>
+                </label>    
+            </div> 
+          </div>      
+        <div class="maxLength">
+          <legend>Phone Number*</legend>
+          <label class="formLabels" for="phone" required>
+            <input type="tel">
+          </label>
+        </div>
+        <div class="maxLength">
+          <legend>Email Address</legend>
+          <label class="formLabels" for="email">
+            <input id="email" type="email">
+          </label>          
+        </div>
+        <div class="maxLength">
+          <legend>Party Size*</legend>
+          <label class="formLabels" for="">
+            <input type="number" required>
+          </label>
+        </div>
+        <div class="maxLength">
+          <legend>Date*</legend>
+          <label class="formLabels" for="date">
+            <input id="dateAttending" type="date" required>
+          </label>
+        </div>
+        
+        <div id="submit">
+          <input type="submit" value="SUBMIT">
+        </div>          
+      </form>
+    </div>    
+  </section>
+
+  <footer id="mainFooter">
+    <div class="social"><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a> </div>
+    <p>Restaurant Annabelle &copy 2020, All Rights Reserved.</p>
+
+  </footer>
+</body>
+</html>
